@@ -54,7 +54,7 @@ jobs:
       with:
         name: SDL_sound-${{matrix.os}}
         path: |
-        ${{github.workspace}}/build/*.dylib
-        ${{github.workspace}}/build/*.a
-        ${{github.workspace}}/build/*.so
-        ${{github.workspace}}/build/*.so.*
+          ${{github.workspace}}/build/*.dylib
+          ${{github.workspace}}/build/*.a
+          ${{github.workspace}}/build/*.so
+          ${{github.workspace}}/build/*.so.*
