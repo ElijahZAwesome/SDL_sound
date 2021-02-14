@@ -33,6 +33,7 @@ endif()
 
 find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIRS})
+include_directories(${SDL2_INCLUDE_DIR})
 if(WIN32)
     # -lmingw32: gcc adds it automatically.
     # -mwindows: doesn't make sense.
