@@ -32,6 +32,7 @@ if(CMAKE_C_COMPILER_ID STREQUAL "SunPro")
 endif()
 
 find_package(SDL2 REQUIRED)
+include_directories(${SDL2_INCLUDE_DIRS})
 include_directories(${SDL2_INCLUDE_DIR})
 link_libraries(${SDL2MAIN_LIBRARY} ${SDL2_LIBRARY})
 if(WIN32)
